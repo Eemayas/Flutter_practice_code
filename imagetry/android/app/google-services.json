@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380446574729",
+    "project_id": "fir-fad6b",
+    "storage_bucket": "fir-fad6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380446574729:android:1229026c2c8d9820c79e58",
+        "android_client_info": {
+          "package_name": "com.prashant.eemayas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380446574729-mh049u8qtcpe517omjkm6bqu2bnaqmul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDknoG5RgiPko63TjOBcXLHqa90Nsh29gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380446574729-mh049u8qtcpe517omjkm6bqu2bnaqmul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+name: try1
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.1.4
+  flutter_launcher_icons: ^0.9.3
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assests/play_store_512.png"
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+#     -assest/image/photo.jpg
+    - images/photo.jpg
+    - assests/play_store_512.png
+
+  fonts:
+    - family: Splash
+      fonts:
+        - asset: assests\fonts\Splash-Regular.ttf
+    - family: PermanentMarker
+      fonts:
+        - asset: assests\fonts\PermanentMarker-Regular.ttf
+    - family: PressStart2P
+      fonts:
+        - asset: assests\fonts\PressStart2P-Regular.ttf
+    
+    - family: Lobster
+      fonts:
+        - asset: assests\fonts\Lobster-Regular.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
