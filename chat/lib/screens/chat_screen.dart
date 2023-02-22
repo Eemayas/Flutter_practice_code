@@ -113,7 +113,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     ),
                   ),
                   // ignore: deprecated_member_use
-                  FlatButton(
+                  ElevatedButton(
                     onPressed: () {
                       messagetextcontroller.clear();
                       try {

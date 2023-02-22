@@ -1,0 +1,18 @@
+name: untitled_3520722401
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  untitled_3520722401_f2f:
+    git: https://f2f.bostonux.com/packages/untitled_3520722401_f2f
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true

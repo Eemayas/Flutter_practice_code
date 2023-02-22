@@ -1,0 +1,17 @@
+class _HomeState extends State<Home> {
+ var currentFocus;
+    
+ unfocus() {
+    currentFocus = FocusScope.of(context);
+
+    if (!currentFocus.hasPrimaryFocus) {
+      currentFocus.unfocus();
+    }
+  }
+  
+Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: unfocus,
+      child: Scaffold(...)
+      )
+     }

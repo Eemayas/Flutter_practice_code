@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:importexport/document.dart';
 import 'package:importexport/screen/firebase.dart';
 
 class homepage extends StatelessWidget {
@@ -31,6 +32,17 @@ class homepage extends StatelessWidget {
                 color: Colors.amberAccent,
                 minWidth: 200,
                 child: Text("INSERT in subcollection"),
+              ),
+              SizedBox(height: 40),
+              MaterialButton(
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => document()));
+                },
+                height: 30,
+                color: Colors.amberAccent,
+                minWidth: 200,
+                child: Text("READ DOCUMENT"),
               ),
             ],
           ),
